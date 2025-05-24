@@ -14,7 +14,7 @@ public class HomeController {
                 <body>
                     <h1>Projet rss25SB</h1>
                     <p>Version : 1.0</p>
-                    <p>Développeurs : El Hathout Abderrahmane, Mahad Moussa</p>
+                    <p>Développeurs : Abderrahmane EL HATHOUT, Mahad MOUSSA ABDILLAHI</p>
                     <img src='https://lettresmodernes.univ-rouen.fr/wp-content/uploads/2019/09/logo-univ-rouen-normandie-couleur.png' width='150'/>
                     <p>Besoin d'aide? <a href="http://localhost:8080/help">help</a></p>
                 </body>

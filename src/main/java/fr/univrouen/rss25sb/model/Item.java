@@ -1,13 +1,22 @@
 package fr.univrouen.rss25sb.model;
 
+import jakarta.persistence.*;
 import jakarta.xml.bind.annotation.*;
+
 import java.util.Date;
 
+@Entity
 @XmlRootElement(name = "item")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Item {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @XmlTransient // Pour que JAXB n’utilise pas cette valeur générée automatiquement
+    private Long dbId;
+
     @XmlAttribute(name = "id", required = true)
+    @Column(nullable = false)
     private int id;
 
     @XmlElement
@@ -20,6 +29,7 @@ public class Item {
     private String link;
 
     @XmlElement
+    @Temporal(TemporalType.TIMESTAMP)
     private Date pubDate;
 
     @XmlElement
@@ -35,6 +45,15 @@ public class Item {
         this.link = link;
         this.pubDate = pubDate;
         this.category = category;
+    }
+
+    // Getters/Setters
+    public Long getDbId() {
+        return dbId;
+    }
+
+    public void setDbId(Long dbId) {
+        this.dbId = dbId;
     }
 
     public int getId() {

@@ -13,8 +13,20 @@ import javax.xml.validation.Validator;
 import java.io.StringReader;
 import java.io.StringWriter;
 
+/**
+ * Classe utilitaire pour valider un objet Item en XML avec un schéma XSD
+ * et fournir le message d'erreur en cas d'échec.
+ */
 public class XMLValidator {
 
+    // Variable qui contiendra le dernier message d'erreur rencontré
+    private static String lastErrorMessage = null;
+
+    /**
+     * Valide un objet Item contre un schéma XSD.
+     * @param item l'objet à valider
+     * @return true si valide, false sinon
+     */
     public static boolean validateXMLWithXSD(Item item) {
         try {
             // Convertir l'objet Java en XML
@@ -33,10 +45,20 @@ public class XMLValidator {
             Validator validator = schema.newValidator();
             validator.validate(new StreamSource(new StringReader(xml)));
 
+            lastErrorMessage = null;
             return true;
+
         } catch (Exception e) {
-            e.printStackTrace();
+            lastErrorMessage = e.getMessage();
             return false;
         }
+    }
+
+    /**
+     * Récupère le dernier message d'erreur de validation XML.
+     * @return message ou null si pas d'erreur
+     */
+    public static String getLastErrorMessage() {
+        return lastErrorMessage;
     }
 }
