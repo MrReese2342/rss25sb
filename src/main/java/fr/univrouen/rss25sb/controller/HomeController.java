@@ -16,7 +16,6 @@ public class HomeController {
                     <p>Version : 1.0</p>
                     <p>Développeurs : Abderrahmane EL HATHOUT, Mahad MOUSSA ABDILLAHI</p>
                     <img src='https://lettresmodernes.univ-rouen.fr/wp-content/uploads/2019/09/logo-univ-rouen-normandie-couleur.png' width='150'/>
-                    <p>Besoin d'aide? <a href="http://localhost:8080/help">help</a></p>
                 </body>
             </html>
         """;
