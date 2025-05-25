@@ -1,0 +1,343 @@
+{
+	"info": {
+		"_postman_id": "63d48c4e-1676-4485-85d0-7a685d097030",
+		"name": "rss25SB_EL-HATHOUT_MOUSSA-ABDILLAHI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29531656",
+		"_collection_link": "https://orange-resonance-815314.postman.co/workspace/orange-resonance-815314-Workspa~44828188-15cf-45c5-92be-2abfd04aacb6/collection/29531656-63d48c4e-1676-4485-85d0-7a685d097030?action=share&source=collection_link&creator=29531656"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/rss25SB/insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<item id=\"99\">\n    <title>Article sans description</title>\n    <link>https://example.com/no-desc</link>\n    <pubDate>2024-05-24T10:00:00</pubDate>\n    <category>Erreur</category>\n</item>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/insert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<item id=\"5\">\n    <title>Retour sur la semaine de la mobilité durable</title>\n    <description>Des ateliers et conférences ont été tenus autour du thème des transports écologiques.</description>\n    <link>https://univ-rouen.fr/mobilite-durable-2024</link>\n    <pubDate>2024-11-25T10:00:00</pubDate>\n    <category>Environnement</category>\n</item>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/insert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<item id=\"4\">\n    <title>Nouveau service de réservation des salles en ligne</title>\n    <description>Les étudiants peuvent désormais réserver certaines salles via la plateforme ENT.</description>\n    <link>https://ent.univ-rouen.fr/reservation-salles</link>\n    <pubDate>2024-12-05T11:00:00</pubDate>\n    <category>Service</category>\n</item>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/insert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<item id=\"3\">\n    <title>Publication du nouveau calendrier universitaire</title>\n    <description>Le calendrier des examens du second semestre est désormais disponible.</description>\n    <link>https://univ-rouen.fr/calendrier-examens-2025</link>\n    <pubDate>2024-12-02T16:45:00</pubDate>\n    <category>Académique</category>\n</item>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/insert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<item id=\"1\">\n    <title>Conférence sur l'Open Source à Rouen</title>\n    <description>L'université a organisé une conférence sur les enjeux de l'Open Source dans l'enseignement supérieur.</description>\n    <link>https://univ-rouen.fr/evenements/opensource2024</link>\n    <pubDate>2024-11-28T14:00:00</pubDate>\n    <category>Événement</category>\n</item>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/insert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<item id=\"2\">\n    <title>Maintenance prévue du réseau</title>\n    <description>Une intervention technique est programmée le 3 décembre entre 22h et 2h du matin.</description>\n    <link>https://univ-rouen.fr/maintenance/reseau-decembre</link>\n    <pubDate>2024-11-29T09:15:00</pubDate>\n    <category>Infrastructure</category>\n</item>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/insert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<item id=\"2\">\n    <title>Maintenance prévue du réseau</title>\n    <description>Une intervention technique est programmée le 3 décembre entre 22h et 2h du matin.</description>\n    <link>https://univ-rouen.fr/maintenance/reseau-decembre</link>\n    <pubDate>2024-11-29T09:15:00</pubDate>\n    <category>Infrastructure</category>\n</item>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/help",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/help",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"help"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/resume/xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/resume/xml",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"resume",
+						"xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/resume/html",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/resume/html",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"resume",
+						"html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/resume/xml/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/resume/xml/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"resume",
+						"xml",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/delete/4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/delete/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"delete",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/rss25SB/search?date=2024-11-28",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rss25SB/search?date=2024-11-28",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss25SB",
+						"search"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2024-11-28"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
